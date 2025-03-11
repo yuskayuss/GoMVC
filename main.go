@@ -19,5 +19,5 @@ func main() {
 	routes.RegisterRoutes(router)
 
 	fmt.Println("Server running on port 8080")
-	router.Run(":8080")
+	router.Run(":9090")
 }
